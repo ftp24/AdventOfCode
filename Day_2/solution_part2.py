@@ -17,6 +17,7 @@ def main():
                     invalid_set.add(id_str)
                     total+=id
     print(total)
+
 def isInvalidId(id_str):
     n = len(id_str)
     # Have a split value that iterates from 1 upto n/2+1
